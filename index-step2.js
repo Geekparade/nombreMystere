@@ -8,12 +8,12 @@ function pied(){
 	// Créer la fonction 'clickValider'
 	function clickValider(){
 		// Récupérer le contenu de mon input
-		var number= $("#value").val() ;		
+		var number= $("#value").val()	
 		// Comparer ce contenu à ce nombre
 			// Si le contenu est égal
 			// Afficher une alert Gagné
 			if (number==random){ 
-				alert("You Win");
+				alert("You Win")
 			// Sinon s'il est supérieur
 			// Afficher une alert Perdu, votre nombre est trop grand
 			}else if(number>random){
