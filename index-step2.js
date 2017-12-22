@@ -17,11 +17,11 @@ function pied(){
 			// Sinon s'il est supérieur
 			// Afficher une alert Perdu, votre nombre est trop grand
 			}else if(number>random){
-				alert("You Lose, your number is so high, continue?")
+				alert("You Lose, your number is too big, continue?")
 			// Sinon s'il est inférieur
 			// Afficher une alert Perdu, votre nombre est trop petit
 			}else if(number<random){
-				alert("You Lose, your number is so small, continue?")
+				alert("You Lose, your number is too small, continue?")
 			}	
 	// /Fin == Fonction clickValider == 
  	}
